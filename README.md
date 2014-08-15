@@ -4,7 +4,8 @@ Bodega
 /bəˈdeɪgə/
 	
 	noun: bodega; plural noun: bodegas
-	A cellar or shop selling wine and food, especially in a Spanish-speaking country or area.
+	A cellar or shop selling wine and food,
+	especially in a Spanish-speaking country or area.
 ```
 
 
