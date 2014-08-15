@@ -17,7 +17,7 @@ Bodega
 
 A simple wrapper for [node-postgres](https://github.com/brianc/node-postgres) to make your life even easier. You do not need to worry about which connection to use, about pooling or about returning a client/connection to the pool after using it.
 
-There is no need to additionally install `node-postgres`. Bodega will take care of it.
+There is no need to additionally install `node-postgres`. Bodega will take care of it. If you need more information/details on the actual `node-postgres` module, take a look at [its own repository](https://github.com/brianc/node-postgres).
 
 
 #### Super simple usage:
