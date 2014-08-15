@@ -1,0 +1,47 @@
+{
+  "name": "bodega",
+  "description": "A simple wrapper for node-postgres to make your life even easier.",
+  "version": "0.1.1",
+  "main": "./lib/index.js",
+  "author": "Stefan Aichholzer <theaichholzer@gmail.com>",
+  "contributors": [],
+  "maintainers": [],
+  "keywords": [
+    "database",
+    "postgresql",
+    "wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aichholzer/Bodega.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^3.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "debug": "1.0.3",
+    "should": "~4.0.4"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec -t 5000",
+    "test-debug": "./node_modules/mocha/bin/mocha -R spec -t 5000",
+    "test-markdown": "./node_modules/mocha/bin/mocha -R markdown -t 5000 > Test.readme.md"
+  },
+  "bugs": {
+    "url": "https://github.com/aichholzer/Bodega/issues"
+  },
+  "homepage": "https://github.com/aichholzer/Bodega",
+  "_from": "bodega@^0.1.1",
+  "_npmUser": {
+    "name": "aichholzer",
+    "email": "theaichholzer@gmail.com"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
