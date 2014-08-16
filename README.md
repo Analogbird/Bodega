@@ -42,9 +42,9 @@ The `config` object requires these properties:
 
 Optional properties:
 
-* `host` - The `host` where your DB is to be found. (*string*, defaults to `localhost`).
-* `port` - The `port` on which your DB is listening. (*int*, defaults to `5432`).
-* `ssl` - Whether to use an SSL connection or not. (*boolean*, defaults to `false`). 
+* `host` - The `host` where your DB is to be found. (*string*, default: `localhost`).
+* `port` - The `port` on which your DB is listening. (*int*, default: `5432`).
+* `ssl` - Whether to use an SSL connection or not. (*boolean*, default: `false`). 
 
 
 
