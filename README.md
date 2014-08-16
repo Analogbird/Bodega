@@ -36,15 +36,15 @@ var bodega = require('bodega').open(config);
 
 The `config` object requires these properties:
 
-* `user` - Your DB `username`.
-* `password` - Your DB `password`.
-* `database` - The `database` you are trying to connect to.
+* `user` - Your DB `username` (*string*).
+* `password` - Your DB `password` (*string*).
+* `database` - The `database` you are trying to connect to (*string*).
 
 Optional properties:
 
-* `host` - The `host` where your DB is to be found. Defaults to `localhost`.
-* `port` - The `port` on which your DB is listening. Defaults to `5432`.
-* `ssl` - Whether to use an SSL connection or not. Defaults to `false`. 
+* `host` - The `host` where your DB is to be found. (*string*, defaults to `localhost`).
+* `port` - The `port` on which your DB is listening. (*int*, defaults to `5432`).
+* `ssl` - Whether to use an SSL connection or not. (*boolean*, defaults to `false`). 
 
 
 

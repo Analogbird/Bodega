@@ -1,7 +1,7 @@
 {
   "name": "bodega",
   "description": "A simple wrapper for node-postgres to make your life even easier.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./lib/index.js",
   "author": "Stefan Aichholzer <theaichholzer@gmail.com>",
   "contributors": [],
@@ -36,7 +36,7 @@
     "url": "https://github.com/aichholzer/Bodega/issues"
   },
   "homepage": "https://github.com/aichholzer/Bodega",
-  "_from": "bodega@^0.1.4   ",
+  "_from": "bodega@^0.1.5",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"
