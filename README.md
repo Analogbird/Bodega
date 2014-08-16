@@ -34,13 +34,13 @@ Require your `bodega` and open it:
 var bodega = require('bodega').open(config);
 ```
 
-Required `config` properties:
+The `config` object requires these properties:
 
 * `user` - Your DB `username`.
 * `password` - Your DB `password`.
 * `database` - The `database` you are trying to connect to.
 
-Optional `config` properties:
+Optional properties:
 
 * `host` - The `host` where your DB is to be found. Defaults to `localhost`.
 * `port` - The `port` on which your DB is listening. Defaults to `5432`.
@@ -52,7 +52,7 @@ Optional `config` properties:
 
 
 
-### SELECT
+### <a id="select">SELECT</a>
 ```
 var query = 'SELECT * FROM "Wine"';
 bodega.do(query, function (err, data) {
@@ -74,7 +74,7 @@ bodega.do(query, function (err, data) {
 ```
 
 
-### INSERT
+### <a id="insert">INSERT</a>
 ```
 var query = 'INSERT INTO "Wine"("brand", "year") VALUES($1, $2) RETURNING id';
 bodega.do(query, ['Quintanilla del Monte', '1980'], function (err, data) {
@@ -98,10 +98,10 @@ bodega.do(query, ['Quintanilla del Monte', '1980'], function (err, data) {
 }
 ```
 
-In this case the response holds an `id` property. This is the property which is expected to be returned from the DB using the `RETURNING` syntax. Furthemore, to keep things easy and comfortable; if `rows` contains only one object, then all of this object's properties will be mapped to the root object.
+The `id` property is what's expected to be returned from the DB by using the `RETURNING` syntax. Furthemore -to keep things easy and comfortable; if `rows` contains only one object, then all of this object's properties will be mapped to the root, hence the presence of `id` at root level.
 
 
-### INSERT (Via a stored procedure)
+### <a id="insert-function">INSERT (Via a stored procedure)</a>
 ```
 var query = 'SELECT "insertWine"($1, $2) AS "bottle"';
 bodega.do(query, ['Tempranillo de la Torre', '1980'], function (err, data) {
@@ -125,10 +125,10 @@ bodega.do(query, ['Tempranillo de la Torre', '1980'], function (err, data) {
 }
 ```
 
-In this case, the contents of the `bottle` property will depend on what the stored procedure decides to return.
+In this case, the contents of the `bottle` property will depend on what the stored procedure decides to return. The rest is the same as described [above](#insert).
 
 
-### DELETE
+### <a id="delete">DELETE</a>
 ```
 var query = 'DELETE FROM "Wine" WHERE "year" = $1';
 bodega.do(query, ['1980'], function (err, data) {
