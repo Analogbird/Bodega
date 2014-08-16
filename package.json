@@ -36,7 +36,7 @@
     "url": "https://github.com/aichholzer/Bodega/issues"
   },
   "homepage": "https://github.com/aichholzer/Bodega",
-  "_from": "bodega@^0.1.4",
+  "_from": "bodega@^0.1.4   ",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"

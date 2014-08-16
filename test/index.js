@@ -18,7 +18,6 @@ describe('Bodega', function () {
 					throw err;
 				}
 
-				console.log(data);
 				data.should.not.equal.null;
 				done();
 			});
@@ -33,7 +32,6 @@ describe('Bodega', function () {
 					throw err;
 				}
 
-				console.log(data);
 				data['id'].should.not.equal.null;
 				done();
 			});
@@ -48,7 +46,6 @@ describe('Bodega', function () {
 					throw err;
 				}
 
-				console.log(data);
 				data['bottle'].should.not.equal.null;
 				done();
 			});
@@ -63,7 +60,6 @@ describe('Bodega', function () {
 					throw err;
 				}
 
-				console.log(data);
 				data['rowCount'].should.not.equal.null;
 				done();
 			});
