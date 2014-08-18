@@ -14,7 +14,7 @@ Bodega
 ```
 
 
-[![Dependencies](https://david-dm.org/aichholzer/bodega.png)](https://david-dm.org/aichholzer/bodega)
+[![Dependencies](https://david-dm.org/analogbird/bodega.png)](https://david-dm.org/analogbird/bodega)
 
 [![NPM](https://nodei.co/npm/bodega.png?downloads=true&stars=true)](https://nodei.co/npm/bodega/)
 
